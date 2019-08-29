@@ -8,9 +8,11 @@ class Player {
     this.hand.push(card);
   }
 
-  playCard(num) {
+  playCard(index) {
+    const card = this.hand[index];
     if (this.hand.length > 0) {
-      this.hand.splice(num, 1);
+      this.hand.splice(index, 1);
     }
+    return card;
   }
 }
