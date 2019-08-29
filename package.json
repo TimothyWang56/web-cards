@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/TimothyWang56/web-cards#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "socket.io": "*",
+    "express": "*"
   }
 }
